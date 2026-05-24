@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+body {
+
+  margin: 0;
+
+  padding: 0;
+
+  background: #0f0f0f;
+
+  font-family:
+    Inter,
+    sans-serif;
+
+  color: white;
+
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+
+  background: #ff7b00;
+
+  border-radius: 20px;
+}
+
+input,
+select {
+
+  transition:
+    all 0.3s ease;
+}
+
+button {
+
+  transition:
+    all 0.3s ease;
+}
